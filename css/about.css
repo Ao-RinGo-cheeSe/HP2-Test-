@@ -1,0 +1,490 @@
+@charset "UTF-8";
+
+/* Business */
+.business {
+  background-color: #aaa;
+}
+
+.business-wrap {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.business-wrap__content {
+  margin: 0 3.5rem;
+}
+
+.business-wrap__content__block {
+  padding: 3.5rem;
+  margin-bottom: 3.5rem;
+  background-color: #fff;
+  border: solid 1px #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.business-wrap__content__block:last-child {
+  margin-bottom: 0;
+}
+
+.business-wrap__content__block__img img{
+  width: 40.0rem;
+  height: auto;
+}
+
+.business-wrap__content__block__txt__ttl {
+  font-size: 2.5rem;
+}
+
+.business-wrap__content__block__txt__detail {
+  padding-left: 3.5rem;
+  font-size: 2.0rem;
+}
+
+.business-wrap__content__block__txt__detail p {
+  padding: 3.5rem 0;
+}
+
+.business__br {
+  display: none;
+}
+
+.business__span {
+  padding: 2.0rem 0;
+  display: inline-block;
+}
+
+
+/* Message */
+.message {
+  background-color: #eee;
+}
+
+.message-wrap {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.message-wrap__content {
+  margin: 0 3.5rem;
+}
+
+.message-wrap__content__block {
+  padding: 3.5rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.message-wrap__content__block__img img {
+  width: auto;
+  height: 30.0rem;
+}
+
+.message-wrap__content__block__txt__name {
+  font-size: 2.5rem;
+}
+
+.message-wrap__content__block__txt__name span {
+  padding-bottom: 1.0rem;
+  display: inline-block;
+}
+
+.message-wrap__content__block__txt__derail {
+  padding: 3.5rem 0 0 3.5rem;
+  font-size: 2.0rem;
+}
+
+.message__span {
+  padding: 2.0rem 0;
+  display: inline-block;
+}
+
+.message__br {
+  display: none;
+}
+
+
+/* Company */
+.company {
+  background-color: #aaa;
+}
+
+.company-wrap {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.company-wrap__content {
+  font-size: 3.0rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.company-wrap__content__left__list__item {
+  padding: 3.5rem 14.0rem 3.5rem 10.5rem;
+  border-top: solid 2px #fff;
+}
+
+.company-wrap__content__left__list__item:last-child {
+  padding-bottom: 6.5rem;
+  border-bottom: solid 2px #fff;
+}
+
+.__padding {
+  padding-bottom: 6.5rem;
+}
+
+.company-wrap__content__right__list__item {
+  padding: 3.5rem 10.5rem 3.5rem 0;
+  border-top: solid 2px #fff;
+}
+
+.company-wrap__content__right__list__item:last-child {
+  border-bottom: solid 2px #fff;
+}
+
+
+/* Access */
+.access {
+  background-color: #eee;
+}
+
+.access-wrap {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.access-wrap__content {
+  margin: 0 3.5rem;
+}
+
+.access-wrap__content__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.access-wrap__content__block__left {
+  border: solid 1px #000;
+}
+
+.access-wrap__content__block__right {
+  margin-left: 10.0rem;
+  font-size: 2.5rem;
+}
+
+.access-wrap__content__block__right__txt span {
+  padding: 2.0rem 0 0 2.0rem;
+  display: inline-block;
+}
+
+.__txt__top {
+  padding-bottom: 3.5rem;
+}
+
+
+@media screen and (max-width:1024px) {
+  /* Business */
+  .business-wrap__content__block__img img {
+    width: 20.0rem;
+  }
+
+  .business-wrap__content__block__txt__ttl {
+    font-size: 2.0rem;
+  }
+
+  .business-wrap__content__block__txt__detail {
+    padding-left: 2.0rem;
+    font-size: 1.5rem;
+  }
+
+  .business-wrap__content__block__txt__detail p {
+    padding: 2.0rem 0;
+  }
+  
+  .business__span {
+    padding: 1.0rem 0;
+  }
+
+
+  /* Message */
+  .message-wrap__content__block {
+    justify-content: center;
+  }
+
+  .message-wrap__content__block__txt {
+    padding-left: 3.5rem;
+  }
+
+  .message-wrap__content__block__txt__name {
+    font-size: 2.0rem;
+  }
+
+  .message-wrap__content__block__txt__derail {
+    padding: 2.0rem 0 0 2.0rem;
+    font-size: 1.5rem;
+  }
+
+  .message__br {
+    display: inline-block;
+  }
+
+  .message__br__no {
+    display: none;
+  }
+
+  .message__span {
+    padding: 0;
+  }
+
+  .message__tab1 {
+    padding: 2.0rem 0;
+    display: inline-block;
+  }
+
+  .message__tab1__2 {
+    padding-bottom: 2.0rem;
+    display: inline-block;
+  }
+
+
+  /* Company */
+  .company-wrap__content {
+    font-size: 2.5rem;
+  }
+
+  .company-wrap__content__left__list__item {
+    padding: 3.5rem 9.5rem 3.5rem 3.5rem;
+  }
+
+  .company-wrap__content__left__list__item:last-child {
+    padding-bottom: 6.0rem;
+  }
+
+  .__padding {
+    padding-bottom: 6.0rem;
+  }
+
+  .company-wrap__content__right__list__item {
+    padding: 3.5rem 3.5rem 3.5rem 0;
+  }
+
+
+  /* Access */
+  .access-wrap__content__block__left  iframe {
+    width: 35.0rem;
+    height: 23.0rem;
+  }
+
+  .access-wrap__content__block__right {
+    margin-left: 5.0rem;
+    font-size: 2.0rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Business */
+  .business-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .business-wrap__content {
+    margin: 0;
+  }
+
+  .business-wrap__content__block {
+    padding: 2.5rem 5.0rem;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .block__tab2 {
+    flex-direction: column-reverse;
+  }
+
+  .business-wrap__content__block__img img {
+    width: 35.0rem;
+    height: auto;
+  }
+
+  .business-wrap__content__block__txt {
+    text-align: center;
+  }
+
+  .business-wrap__content__block__txt__ttl {
+    padding-top: 1.0rem;
+    font-size: 2.0rem;
+  }
+
+  .business-wrap__content__block__txt__detail {
+    padding-left: 0;
+    font-size: 1.5rem;
+  }
+
+  .business-wrap__content__block__txt__detail p {
+    padding: 1.0rem 0;
+  }
+
+  .business__span {
+    padding: 0;
+  }
+
+  .business__tab2 {
+    padding: 0.5rem 0;
+    display: inline-block;
+  }
+
+
+  /* Message */
+  .message-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .message-wrap__content {
+    margin: 0;
+  }
+
+  .message-wrap__content__block {
+    padding: 2.0rem;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .message-wrap__content__block__img img {
+    width: auto;
+    height: 25.0rem;
+  }
+
+  .message-wrap__content__block__txt {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .message-wrap__content__block__txt__name {
+    padding-top: 2.0rem;
+    font-size: 2.0rem;
+  }
+
+  .message-wrap__content__block__txt__derail {
+    padding: 1.0rem 0 0 0;
+    font-size: 1.5rem;
+  }
+
+  .message__tab1 {
+    padding: 1.0rem 0;
+  }
+
+  .message__tab1__2 {
+    padding-bottom: 1.0rem;
+  }
+
+
+  /* Company */
+  .company-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .company-wrap__content {
+    margin: 0;
+    font-size: 2.0rem;
+  }
+
+  .company-wrap__content__left__list__item:last-child {
+    padding-bottom: 5.5rem;
+  }
+
+  .__padding {
+    padding-bottom: 5.5rem;
+  }
+
+  /* Access */
+  .access-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .access-wrap__content {
+    margin: 0;
+  }
+
+  .access-wrap__content__block {
+    flex-direction: column;
+  }
+
+  .access-wrap__content__block__left iframe {
+    width: 30.0rem;
+    height: 20.0rem;
+  }
+
+  .access-wrap__content__block__right {
+    margin-top: 2.0rem;
+    margin-left: 0;
+  }
+
+  .access-wrap__content__block__right__txt span {
+    padding: 1.0rem 0 0 2.0rem;
+    display: inline-block;
+  }
+
+  .__txt__top {
+    padding-bottom: 2.0rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Business */
+  .business-wrap__content__block {
+    padding: 2.0rem;
+  }
+
+  .business-wrap__content__block__img img {
+    width: 30.0rem;
+    height: auto;
+  }
+
+
+  /* Company */
+  .company-wrap__content {
+    font-size: 1.5rem;
+  }
+
+  .company-wrap__content__left__list__item {
+    padding: 1.5rem 4.5rem 1.5rem 1.5rem;
+  }
+
+  .company-wrap__content__left__list__item:last-child {
+    padding-bottom: 3.0rem;
+  }
+
+  .__padding {
+    padding-bottom: 3.0rem;
+  }
+
+  .company-wrap__content__right__list__item {
+    padding: 1.5rem 1.5rem 1.5rem 0;
+  }
+
+
+  /* Access */
+  
+}

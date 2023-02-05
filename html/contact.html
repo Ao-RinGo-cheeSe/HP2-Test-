@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HP2-Test-</title>
+    <!-- <meta name="description" content="【WithCode(ウィズコード)】Web制作会社が開発した実践的なカリキュラム。卒業後からWeb制作会社の案件を担当しながら稼ぐ環境を提供する唯一のプログラミングスクールです。"> -->
+    <meta name="keywords" content="美容院,メンズ,宮城県,仙台市">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta property="og:url" content="https://withcode-plus.tech"> -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="HP2-Test-">
+    <!-- <meta property="og:description" content="【WithCode(ウィズコード)】Web制作会社が開発した実践的なカリキュラム。卒業後からWeb制作会社の案件を担当しながら稼ぐ環境を提供する唯一のプログラミングスクールです。"> -->
+    <meta property="og:site_name" content="HP2-Test-">
+    <!-- <meta property="og:image" content="https://withcode-plus.tech/img/logo.png"> -->
+    <link rel="icon" href="../favicon.ico">
+    <link rel="apple-touch-icon" sizes="180×180" href="img/logo.jpg">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header-wrap">
+        <div class="header-wrap__ttl">
+          <a href="../index.html">
+            <div class="header-wrap__ttl__img">
+              <img src="../img/logo.jpg" alt="logo">
+            </div>
+            <h1 class="header-wrap__ttl__ttl">
+              White<br>
+              <span>Rabbit</span>
+            </h1>
+          </a>
+        </div>
+        <nav class="header-wrap__nav">
+          <ul class="header-wrap__nav__list">
+            <li class="header-wrap__nav__list__item">
+              <a href="../index.html">
+                Home
+              </a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="about.html">
+                About
+              </a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="news.html">
+                News
+              </a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="salon.html">
+                Salon
+              </a>
+            </li>
+            <li class="header-wrap__nav__list__item item__contact-btn">
+              <a href="contact.html">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="drawer"></div>
+    </header>
+    <main>
+      <section class="top" id="top">
+        <div class="top-wrap">
+          <div class="top-wrap__top">
+            <div class="top-wrap__top__img">
+              <img src="../img/contact_top1.jpg" alt="contact_top1">
+            </div>
+          </div>
+          <div class="top-wrap__bottom">
+            <div class="top-wrap__bottom__ttl">
+              <h2>Contact</h2>
+            </div>
+            <div class="top-wrap__bottom__img">
+              <img src="../img/contact_top2.jpg" alt="contact_top2">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact section" id="contact">
+        <div class="contact-wrap">
+          <div class="white__ttl">
+            <h3>Contact</h3>
+          </div>
+          <div class="contact-wrap__txt">
+            <p>
+              弊社の美容室・商品については<br class="contact__br"><span class="contact__tab2">下記より気軽にご相談・ご質問ください。</span><br>
+              <span class="contact__span">内容の確認後，ご連絡させていただきます。</span>
+            </p>
+          </div>
+          <form action="../mail.php" id="form" method="POST" class="contact-wrap__form" id="form">
+            <div class="contact-wrap__form__box">
+              <label for="name" class="contact-wrap__form__box__ttl">お問い合わせ項目</label>
+              <select name="お問い合わせ項目" required="required" class="contact-wrap__form__box__select">
+                <optgroup value>
+                  <option value="プルダウンメニューで問い合わせ内容を選択" hidden class="contact-wrap__form__box__select__with">お問い合わせ内容を選択</option>
+                  <option value="美容室について" class="contact-wrap__form__box__select__with">美容室について</option>
+                  <option value="商品について" class="contact-wrap__form__box__select__with">商品について</option>
+                  <option value="その他" class="contact-wrap__form__box__select__with">その他</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="contact-wrap__form__box">
+              <label for="name" class="contact-wrap__form__box__ttl">お名前（漢字）</label>
+              <input type="text" class="contact-wrap__form__box__input" name="お名前（漢字）" required="required" placeholder="お名前をご入力下さい">
+            </div>
+            <div class="contact-wrap__form__box">
+              <label for="email" class="contact-wrap__form__box__ttl">メールアドレス</label>
+              <input type="email" class="contact-wrap__form__box__input" name="メールアドレス" required="required" placeholder="例）example.com">
+            </div>
+            <div class="contact-wrap__form__box __area">
+              <label for="message" class="contact-wrap__form__box__ttl">お問い合わせ内容</label>
+              <textarea name="お問い合わせ内容" class="contact-wrap__form__box__area" id="message" required="required" placeholder="お問い合わせ内容をご入力下さい"></textarea>
+            </div>
+            <button type="submit" class="btn contact-btn">送信する</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="footer-wrap">
+        <div class="footer-wrap__top section">
+          <div class="footer-wrap__top__ttl">
+            <a href="../index.html">
+              <div class="footer-wrap__top__ttl__img">
+                <img src="../img/logo.jpg" alt="logo">
+              </div>
+              <h1 class="footer-wrap__top__ttl__ttl">
+                White<br>
+                <span>Rabbit</span>
+              </h1>
+            </a>
+          </div>
+          <nav class="footer-wrap__top__nav">
+            <ul class="footer-wrap__top__nav__list">
+              <li class="footer-wrap__top__nav__list__item">
+                <a href="../index.html">
+                  Home
+                </a>
+              </li>
+              <li class="footer-wrap__top__nav__list__item">
+                <a href="about.html">
+                  About
+                </a>
+              </li>
+              <li class="footer-wrap__top__nav__list__item">
+                <a href="news.html">
+                  News
+                </a>
+              </li>
+              <li class="footer-wrap__top__nav__list__item">
+                <a href="salon.html">
+                  Salon
+                </a>
+              </li>
+              <li class="footer-wrap__top__nav__list__item">
+                <a href="contact.html">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer-wrap__top__sns">
+            <div class="footer-wrap__top__sns__icon">
+              <a href="https://twitter.com/">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            <div class="footer-wrap__top__sns__icon">
+              <a href="https://www.instagram.com/">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="footer-wrap__top__sns__icon">
+              <a href="https://www.youtube.com/">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-wrap__bottom">
+          <div class="footer-wrap__bottom__txt">
+            <ul class="footer-wrap__bottom__txt__list">
+              <li class="footer-wrap__bottom__txt__list__item">
+                <a href="#">
+                  セキュリティーポリシー
+                </a>
+              </li>
+              <li class="footer-wrap__bottom__txt__list__item">
+                <a href="#">
+                  プライバシーポリシー
+                </a>
+              </li>
+              <li class="footer-wrap__bottom__txt__list__item">
+                <a href="#">
+                  利用規約
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-wrap__bottom__copyright">
+            <small>© 2023 WhiteRabbit All Rights Reserved.</small>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+  </body>
+</html>

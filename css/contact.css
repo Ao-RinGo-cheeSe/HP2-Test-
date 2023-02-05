@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+.contact {
+  background-color: #eee;
+}
+
+.contact-wrap {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.contact-wrap__txt {
+  margin-left: 3.5rem;
+  margin-bottom: 3.5rem;
+  font-size: 2.0rem;
+}
+
+.contact__span {
+  margin-top: 1.0rem;
+  display: inline-block;
+}
+
+.contact__br {
+  display: none;
+}
+
+.contact-wrap__form {
+  margin: 0 7.0rem;
+  font-size: 2.0rem;
+}
+
+.contact-wrap__form__box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto 7.0rem;
+}
+
+.contact-wrap__form__box.__area {
+  align-items: baseline;
+}
+
+.contact-wrap__form__box__select,
+.contact-wrap__form__box__input,
+.contact-wrap__form__box__area {
+  height: 4.4rem;
+  width: 60%;
+  padding: 0 0 0 1.0rem;
+  font-size: 2.0rem;
+  border: solid 1px #000;
+}
+
+.contact-wrap__form__box__select {
+  width: 61.2%;
+}
+
+.contact-wrap__form__box__area {
+  height: 17.6rem;
+  padding: 1.0rem 0 0 1.0rem;
+}
+
+.contact-wrap__form__box__ttl {
+  width: 40%;
+  height: 100%;
+  position: relative;
+}
+
+.contact-wrap__form__box__ttl::after {
+  content: "必須";
+  position: absolute;
+  top: 50%;
+  left: 67.5%;
+  transform: translateY(-50%) translateX(-50%);
+  text-align: center;
+  width: 20%;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  color: #f00;
+  border: solid 1px #f00;
+}
+
+.contact-btn {
+  width: 15.0rem;
+  height: 4.4rem;
+  margin: 0 auto;
+  display: block;
+  color: #fff;
+  background: #000;
+  cursor: pointer;
+  font-size: 2.0rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.contact-btn:hover {
+  color: #000;
+  background: #fff;
+  transition: 0.75s;
+}
+
+@media screen and (max-width: 1024px) {
+  /* Contact */
+  .contact-wrap__form__box__ttl::after {
+    left: 85%;
+  }
+
+  .contact-wrap__form__box {
+    margin-bottom: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .contact-wrap__form__box__ttl {
+    margin-bottom: 1.0rem;
+  }
+
+  .contact-wrap__form__box__select,
+  .contact-wrap__form__box__input,
+  .contact-wrap__form__box__area {
+    width: 100%;
+    margin-left: 3.5rem;
+  }
+
+  .contact-wrap__form__box__select {
+    width: 102%;
+  }
+
+  .contact-wrap__form__box.__area {
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Contact */
+  .contact-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-wrap__txt {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .contact__span {
+    margin-top: 0;
+  }
+
+  .contact__br {
+    display: inline-block;
+  }
+
+  .contact__tab2 {
+    margin: 1.0rem 0;
+    display: inline-block;
+  }
+
+  .contact-wrap__form {
+    width: 65%;
+  }
+
+  .contact-wrap__form__box__ttl {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Contact */
+  .contact-wrap {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contact-wrap__txt {
+    margin-bottom: 3.5rem;
+    font-size: 1.5rem;
+  }
+
+  .contact-wrap__form {
+    width: 70%;
+    margin: 0;
+    font-size: 1.8rem;
+  }
+
+  .contact-wrap__form__box__select,
+  .contact-wrap__form__box__input,
+  .contact-wrap__form__box__area {
+    margin-left: 2.0rem;
+    height: 2.8rem;
+    font-size: 1.5rem;
+  }
+
+  .contact-wrap__form__box__select {
+    width: 105%;
+  }
+
+  .contact-wrap__form__box__area {
+    height: 11.0rem;
+  }
+}
