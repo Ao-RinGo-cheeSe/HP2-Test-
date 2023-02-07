@@ -16,13 +16,15 @@
 }
 
 .home-wrap__ttl {
-  font-size: 10.0rem;
+  /* font-size: 10.0rem; */
+  font-size: 8.0rem;
   color: #fff;
 }
 
 .home-wrap__ttl p {
-  font-size: 5.0rem;
-  letter-spacing: 2.5rem;
+  /* font-size: 5.0rem; */
+  font-size: 4.0rem;
+  letter-spacing: 2.0rem;
 }
 
 .home-wrap__img img {
@@ -58,20 +60,28 @@
 }
 
 .about-wrap__content {
-  padding: 0 3.5rem;
+  margin: 0 3.5rem;
+  /* padding: 0 3.5rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .about-wrap__content__block {
+  width: 40%;
   padding: 3.0rem;
   background-color: #fff;
 }
 
+.about-wrap__content__block__img {
+  width: 100%;
+}
+
 .about-wrap__content__block__img img {
-  width: 50.0rem;
-  height: 37.5rem;
+  width: 100%;
+  height: auto;
+  /* width: 50.0rem; */
+  /* height: 37.5rem; */
   border: solid 1px #888;
 }
 
@@ -104,13 +114,15 @@
 }
 
 .news-wrap__content {
-  padding: 0 3.5rem;
+  margin: 0 3.5rem;
+  /* padding: 0 3.5rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .news-wrap__content__block {
+  width: 25%;
   padding: 2.0rem;
   background-color: #fff;
 }
@@ -119,15 +131,22 @@
   display: none;
 }
 
+.news-wrap__content__block__img {
+  width: 100%;
+}
+
 .news-wrap__content__block__img img {
-  width: 32.0rem;
-  height: 24.0rem;
+  width: 100%;
+  height: auto;
+  /* width: 32.0rem; */
+  /* height: 24.0rem; */
   border: solid 1px #888;
 }
 
 .news-wrap__content__block__txt {
-  padding: 0 3.0rem;
-  font-size: 2.0rem;
+  padding: 0 1.5rem;
+  font-size: 1.5rem;
+  /* font-size: 2.0rem; */
 }
 
 .news-wrap__content__block__txt__top {
@@ -141,9 +160,9 @@
   align-items: center;
 }
 
-.news-wrap__content__block__txt__bottom p {
+/* .news-wrap__content__block__txt__bottom p {
   padding-right: 5.0rem;
-}
+} */
 
 .news-wrap__btn {
   margin-top: 3.5rem;
@@ -168,9 +187,15 @@
   align-items: center;
 }
 
+.salon-wrap__content__block {
+  width: 45%;
+}
+
 .__bg1 {
-  width: 55.0rem;
-  height: 36.0rem;
+  width: 100%;
+  padding: 25% 0;
+  /* width: 55.0rem; */
+  /* height: 36.0rem; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,8 +205,10 @@
 }
 
 .__bg2 {
-  width: 55.0rem;
-  height: 36.0rem;
+  width: 100%;
+  padding: 25% 0;
+  /* width: 55.0rem; */
+  /* height: 36.0rem; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -243,7 +270,7 @@
   .home-wrap__ttl {
     position: absolute;
     left: 0;
-    top: 70%;
+    top: 62%;
   }
 
   .home-wrap__img img {
@@ -252,10 +279,18 @@
   }
 
   /* About */
-  .about-wrap__content__block__img img {
+  .about-wrap__txt {
+    font-size: 1.8rem;
+  }
+
+  .about-wrap__content__block {
+    padding: 2.0rem;
+  }
+
+  /* .about-wrap__content__block__img img {
     width: 30.0rem;
     height: 22.5rem;
-  }
+  } */
 
 
   /* News */
@@ -266,6 +301,10 @@
     flex-wrap: wrap;
   }
 
+  .news-wrap__content__block {
+    width: 40%;
+  }
+
   .block__top {
     margin-bottom: 3.5rem;
   }
@@ -274,33 +313,42 @@
     display: inline-block;
   }
 
-  .news-wrap__content__block__img img {
+  /* .news-wrap__content__block__img img {
     width: 30.0rem;
     height: 22.5rem;
-  }
+  } */
 
 
   /* Salon */
-  .__bg1 {
-    width: 35.0rem;
-    height: 25.0rem;
+  .salon-wrap__content__block h4 {
+    font-size: 3.0rem;
   }
 
-  .__bg2 {
+  /* .__bg1 {
     width: 35.0rem;
     height: 25.0rem;
-  }
+  } */
+
+  /* .__bg2 {
+    width: 35.0rem;
+    height: 25.0rem;
+  } */
 }
 
 @media screen and (max-width: 768px) {
+.__tab2 {
+  display: inline-block;
+}
+
   /* Home */
   .home-wrap__ttl {
-    font-size: 8.0rem;
+    font-size: 5.0rem;
     top: 72%;
   }
 
   .home-wrap__ttl p {
-    font-size: 4.0rem;
+    font-size: 2.5rem;
+    letter-spacing: 1.2rem;
   }
 
 
@@ -314,23 +362,38 @@
 
   .about-wrap__txt {
     padding-left: 0;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 
+  .about-wrap__txt span {
+    padding-bottom: 0rem;
+  }
+
   .about-wrap__content {
-    padding: 0 3.5rem;
+    padding: 0;
     justify-content: center;
     flex-direction: column;
   }
 
   .about-wrap__content__block {
+    width: 90%;
     margin-bottom: 3.5rem;
+    padding: 2.0rem;
   }
 
   .about-wrap__content__block:last-child {
     margin-bottom: 0;
   }
+
+    .about-wrap__content__block__txt__top {
+      padding: 1.5rem 0 1.0rem 0;
+      font-size: 1.5rem;
+    }
+  
+    .about-wrap__content__block__txt__bottom {
+      font-size: 2.5rem;
+    }
 
 
   /* News */
@@ -342,7 +405,14 @@
   }
 
   .news-wrap__content {
+    padding: 0;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .news-wrap__content__block {
+    width: 90%;
   }
 
   .block__visibility {
@@ -359,11 +429,13 @@
   }
 
   .salon-wrap__content {
+    width: 90%;
     justify-content: center;
     flex-direction: column;
   }
 
   .salon-wrap__content__block {
+    width: 100%;
     margin-bottom: 3.5rem;
   }
 
@@ -384,10 +456,9 @@
 }
 
 @media screen and (max-width: 480px) {
-  .__sp {
+  /* .__sp {
     display: inline-block;
-  }
-
+  } */
 
   /* Home */
   .home-wrap__img img {
@@ -396,27 +467,30 @@
   }
 
   .home-wrap__ttl {
-    font-size: 5.0rem;
+    font-size: 4.0rem;
     top: 65%;
   }
   
   .home-wrap__ttl p {
-    font-size: 2.5rem;
-    letter-spacing: 1.2rem;
+    font-size: 2.0rem;
+    letter-spacing: 1.0rem;
   }
 
 
   /* About */
-  .about-wrap__txt {
-    font-size: 1.5rem;
-  }
-
-  .about-wrap__txt span {
-    padding-bottom: 0rem;
-  }
-
-
   .about-wrap__content {
+    margin: 0 auto;
+  }
+  /* .about-wrap__txt {
+    font-size: 1.5rem;
+  } */
+
+  /* .about-wrap__txt span {
+    padding-bottom: 0rem;
+  } */
+
+
+  /* .about-wrap__content {
     padding: 0;
   }
 
@@ -431,25 +505,29 @@
 
   .about-wrap__content__block__txt__bottom {
     font-size: 2.8rem;
-  }
+  } */
 
 
   /* News */
+  /* .news-wrap__content__block__txt {
+    font-size: 1.5rem;
+  } */
+
   .news-wrap__content {
-    padding: 0;
+    margin: 0 auto;
   }
 
 
   /* Salon */
-  .__bg1 {
+  /* .__bg1 {
     width: 30.0rem;
     height: 20.0rem;
-  }
+  } */
 
-  .__bg2 {
+  /* .__bg2 {
     width: 30.0rem;
     height: 20.0rem;
-  }
+  } */
 
   .salon-wrap__content__block h4 {
     font-size: 3.0rem;
@@ -457,8 +535,12 @@
 
 
   /* Contact */
+  .contact-wrap__content {
+    width: 100%;
+  }
+
   .contact-wrap__content__txt {
     padding: 0 0 0 2.0rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
