@@ -187,7 +187,7 @@ header .drawer {
 }
 
 .footer-wrap__bottom__txt {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -224,6 +224,7 @@ header .drawer {
 .top-wrap__top__img img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .top-wrap__bottom {
@@ -256,7 +257,7 @@ header .drawer {
 @media screen and (max-width: 1024px) {
   /* Footer */
   .footer-wrap__bottom__txt {
-    width: 65%;
+    width: 80%;
   }
 }
 
@@ -353,8 +354,14 @@ header .drawer {
     padding: 0 2.0rem
   }
 
-  .footer-wrap__bottom__txt {
-    width: 85%;
+  .footer-wrap__bottom__txt__list {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* Top */
+  .top-wrap__bottom__ttl {
+    font-size: 5.0rem;
   }
 }
 
@@ -373,10 +380,10 @@ header .drawer {
     font-size: 3.0rem;
   }
 
-  .footer-wrap__bottom__txt__list {
+  /* .footer-wrap__bottom__txt__list {
     justify-content: center;
     flex-direction: column;
-  }
+  } */
 
   .footer-wrap__bottom__txt__list__item {
     padding-bottom: 0.5rem;
@@ -388,6 +395,6 @@ header .drawer {
 
   /* Top */
   .top-wrap__bottom__ttl {
-    font-size: 4.0rem;
+    font-size: 3.0rem;
   }
 }

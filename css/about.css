@@ -28,18 +28,25 @@
   margin-bottom: 0;
 }
 
-.business-wrap__content__block__img img{
-  width: 40.0rem;
+.business-wrap__content__block__img {
+  width: 40%;
   height: auto;
 }
 
+.business-wrap__content__block__img img{
+  width: 100%;
+  height: auto;
+  /* width: 40.0rem;
+  height: auto; */
+}
+
 .business-wrap__content__block__txt__ttl {
-  font-size: 2.5rem;
+  font-size: 2.0rem;
 }
 
 .business-wrap__content__block__txt__detail {
   padding-left: 3.5rem;
-  font-size: 2.0rem;
+  font-size: 1.3rem;
 }
 
 .business-wrap__content__block__txt__detail p {
@@ -78,13 +85,20 @@
   align-items: center;
 }
 
+.message-wrap__content__block__img {
+  width: 30%;
+  height: auto;
+}
+
 .message-wrap__content__block__img img {
-  width: auto;
-  height: 30.0rem;
+  width: 100%;
+  height: auto;
+  /* width: auto;
+  height: 30.0rem; */
 }
 
 .message-wrap__content__block__txt__name {
-  font-size: 2.5rem;
+  font-size: 2.0rem;
 }
 
 .message-wrap__content__block__txt__name span {
@@ -93,8 +107,8 @@
 }
 
 .message-wrap__content__block__txt__derail {
-  padding: 3.5rem 0 0 3.5rem;
-  font-size: 2.0rem;
+  padding: 2.0rem 0 0 2.0rem;
+  font-size: 1.3rem;
 }
 
 .message__span {
@@ -118,7 +132,7 @@
 }
 
 .company-wrap__content {
-  font-size: 3.0rem;
+  font-size: 2.5rem;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -131,12 +145,12 @@
 }
 
 .company-wrap__content__left__list__item:last-child {
-  padding-bottom: 6.5rem;
+  padding-bottom: 6.0rem;
   border-bottom: solid 2px #fff;
 }
 
 .__padding {
-  padding-bottom: 6.5rem;
+  padding-bottom: 6.0rem;
 }
 
 .company-wrap__content__right__list__item {
@@ -165,17 +179,25 @@
 
 .access-wrap__content__block {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.access-wrap__content__block__left {
+/* .access-wrap__content__block__left {
+  width: 40%;
+  height: auto;
   border: solid 1px #000;
+} */
+
+.access-wrap__content__block__left iframe {
+  width: 40vw;
+  height: 40vh;
+  /* border: solid 1px #000; */
 }
 
 .access-wrap__content__block__right {
-  margin-left: 10.0rem;
-  font-size: 2.5rem;
+  /* margin-left: 6.0rem; */
+  font-size: 2.0rem;
 }
 
 .access-wrap__content__block__right__txt span {
@@ -190,17 +212,24 @@
 
 @media screen and (max-width:1024px) {
   /* Business */
-  .business-wrap__content__block__img img {
-    width: 20.0rem;
+  .business-wrap__content__block {
+    padding: 1.5rem;
   }
 
+  /* .business-wrap__content__block__img img {
+    width: 20.0rem;
+  } */
+
   .business-wrap__content__block__txt__ttl {
-    font-size: 2.0rem;
+    font-size: 1.8rem;
+    /* font-size: 2.0rem; */
   }
 
   .business-wrap__content__block__txt__detail {
-    padding-left: 2.0rem;
-    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    /* padding-left: 2.0rem; */
+    font-size: 1.0rem;
+    /* font-size: 1.5rem; */
   }
 
   .business-wrap__content__block__txt__detail p {
@@ -213,13 +242,17 @@
 
 
   /* Message */
-  .message-wrap__content__block {
+  /* .message-wrap__content__block {
     justify-content: center;
+  } */
+
+  .message-wrap__content__block__img {
+    width: 45%;
   }
 
-  .message-wrap__content__block__txt {
+  /* .message-wrap__content__block__txt {
     padding-left: 3.5rem;
-  }
+  } */ 
 
   .message-wrap__content__block__txt__name {
     font-size: 2.0rem;
@@ -227,7 +260,7 @@
 
   .message-wrap__content__block__txt__derail {
     padding: 2.0rem 0 0 2.0rem;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 
   .message__br {
@@ -277,13 +310,15 @@
 
   /* Access */
   .access-wrap__content__block__left  iframe {
-    width: 35.0rem;
-    height: 23.0rem;
+    width: 35vw;
+    height: 30vh;
+    /* width: 35.0rem;
+    height: 23.0rem; */
   }
 
   .access-wrap__content__block__right {
-    margin-left: 5.0rem;
-    font-size: 2.0rem;
+    /* margin-left: 5.0rem; */
+    font-size: 1.7rem;
   }
 }
 
@@ -298,11 +333,12 @@
   }
 
   .business-wrap__content {
-    margin: 0;
+    width: 85%;
+    margin: 0 auto;
   }
 
   .business-wrap__content__block {
-    padding: 2.5rem 5.0rem;
+    padding: 2.5rem;
     justify-content: center;
     flex-direction: column;
   }
@@ -311,12 +347,19 @@
     flex-direction: column-reverse;
   }
 
-  .business-wrap__content__block__img img {
-    width: 35.0rem;
+  .business-wrap__content__block__img {
+    width: 80%;
     height: auto;
   }
 
+  /* .business-wrap__content__block__img img {
+    width: 35.0rem;
+    height: auto;
+  } */
+
   .business-wrap__content__block__txt {
+    width: 90%;
+    margin: 0 auto;
     text-align: center;
   }
 
@@ -354,7 +397,8 @@
   }
 
   .message-wrap__content {
-    margin: 0;
+    width: 85%;
+    margin: 0 auto;
   }
 
   .message-wrap__content__block {
@@ -363,10 +407,10 @@
     flex-direction: column;
   }
 
-  .message-wrap__content__block__img img {
+  /* .message-wrap__content__block__img img {
     width: auto;
     height: 25.0rem;
-  }
+  } */
 
   .message-wrap__content__block__txt {
     padding-left: 0;
@@ -402,16 +446,21 @@
   }
 
   .company-wrap__content {
-    margin: 0;
-    font-size: 2.0rem;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+  }
+
+  .company-wrap__content__left__list__item {
+    padding: 3.5rem 7.0rem 3.5rem 3.5rem;
   }
 
   .company-wrap__content__left__list__item:last-child {
-    padding-bottom: 5.5rem;
+    padding-bottom: 5.1rem;
   }
 
   .__padding {
-    padding-bottom: 5.5rem;
+    padding-bottom: 5.1rem;
   }
 
   /* Access */
@@ -453,31 +502,50 @@
 
 @media screen and (max-width: 480px) {
   /* Business */
-  .business-wrap__content__block {
-    padding: 2.0rem;
+  .business-wrap__content {
+    width: 95%;
+    margin: 0 auto;
   }
 
-  .business-wrap__content__block__img img {
+  .business-wrap__content__block {
+    padding: 1.5rem;
+  }
+
+  .business-wrap__content__block__txt__detail {
+    font-size: 1.2rem;
+  }
+
+  /* .business-wrap__content__block__img img {
     width: 30.0rem;
     height: auto;
+  } */
+
+
+  /* Message */
+  .message-wrap__content {
+    width: 95%;
+    margin: 0 auto;
   }
 
+  .message-wrap__content__block__txt__derail {
+    font-size: 1.2rem;
+  }
 
   /* Company */
   .company-wrap__content {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .company-wrap__content__left__list__item {
-    padding: 1.5rem 4.5rem 1.5rem 1.5rem;
+    padding: 1.5rem 3.0rem 1.5rem 1.5rem;
   }
 
   .company-wrap__content__left__list__item:last-child {
-    padding-bottom: 3.0rem;
+    padding-bottom: 2.7rem;
   }
 
   .__padding {
-    padding-bottom: 3.0rem;
+    padding-bottom: 2.7rem;
   }
 
   .company-wrap__content__right__list__item {

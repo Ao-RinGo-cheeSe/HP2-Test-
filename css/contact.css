@@ -101,8 +101,13 @@
 
 @media screen and (max-width: 1024px) {
   /* Contact */
-  .contact-wrap__form__box__ttl::after {
-    left: 85%;
+  .contact-wrap__txt {
+    font-size: 1.8rem;
+  }
+
+  .contact-wrap__form {
+    width: 90%;
+    margin: 7.0rem;
   }
 
   .contact-wrap__form__box {
@@ -117,6 +122,14 @@
     margin-bottom: 1.0rem;
   }
 
+  .contact-wrap__form__box__ttl::after {
+    top: 50%;
+    left: 110%;
+    /* left: 67.5%; */
+    transform: translateY(-50%) translateX(-50%);
+    width: 20%;
+  }
+
   .contact-wrap__form__box__select,
   .contact-wrap__form__box__input,
   .contact-wrap__form__box__area {
@@ -125,7 +138,7 @@
   }
 
   .contact-wrap__form__box__select {
-    width: 102%;
+    width: 102.5%;
   }
 
   .contact-wrap__form__box.__area {
@@ -147,6 +160,26 @@
     text-align: center;
   }
 
+  .contact-wrap__form {
+  /* width: 95%;
+  margin: 0 auto; */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+
+  .contact-wrap__form__box {
+    width: 100%;
+    margin-bottom: 3.5rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column; */
+  }
+
+  
   .contact__span {
     margin-top: 0;
   }
@@ -166,6 +199,12 @@
 
   .contact-wrap__form__box__ttl {
     width: 90%;
+  }
+
+  .contact-wrap__form__box__select,
+  .contact-wrap__form__box__input,
+  .contact-wrap__form__box__area {
+    font-size: 1.6rem;
   }
 }
 
@@ -192,7 +231,7 @@
   .contact-wrap__form__box__area {
     margin-left: 2.0rem;
     height: 2.8rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .contact-wrap__form__box__select {

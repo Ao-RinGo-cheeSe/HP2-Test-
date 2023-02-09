@@ -32,9 +32,16 @@
   right: 10%;
 }
 
-.salon-wrap__content__img img {
-  width: 55.0rem;
+.salon-wrap__content__img {
+  width: 38%;
   height: auto;
+}
+
+.salon-wrap__content__img img {
+  width: 100%;
+  height: auto;
+  /* width: 55.0rem;
+  height: auto; */
 }
 
 .salon-wrap__content__block {
@@ -59,12 +66,12 @@
 
 .salon-wrap__content__block__detail h4 {
   padding-bottom: 2.0rem;
-  font-size: 4.0rem;
+  font-size: 3.0rem;
 }
 
 .salon-wrap__content__block__detail p {
   padding-bottom: 2.0rem;
-  font-size: 3.0rem;
+  font-size: 2.0rem;
 }
 
 .salon-wrap__content__block__detail span {
@@ -74,10 +81,15 @@
 
 @media screen and (max-width:1024px) {
   /* Salon */
-  .salon-wrap__content__img img {
-    width: 40.0rem;
+  .salon-wrap__content__img {
+    width: 45%;
     height: auto;
   }
+
+  /* .salon-wrap__content__img img {
+    /* width: 40.0rem;
+    height: auto;
+  } */
 
   .salon__detail__top {
     padding-left: 22.0rem;
@@ -92,11 +104,13 @@
   }
 
   .salon-wrap__content__block__detail h4 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    /* font-size: 3.5rem; */
   }
 
   .salon-wrap__content__block__detail p {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    /* font-size: 2.5rem; */
   }
 
   /* .salon-wrap__content__block__detail__img img {
@@ -131,6 +145,8 @@
 @media screen and (max-width:768px){
   /* Salon */
   .salon-wrap {
+    width: 85%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,15 +172,27 @@
   }
 
   .salon-wrap__content__img {
+    width: 90%;
+    height: auto;
     position: static;
+  }
+
+  .salon-wrap__content__img img {
+    width: 100%;
+    height: auto;
   }
   
   .salon-wrap__content__block {
     width: 100%;
+    padding-bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: transparent;
+  }
+
+  .salon-wrap__content__block__detail p:last-child {
+    padding-bottom: 0;
   }
 
   .salon__detail__top {
@@ -182,19 +210,19 @@
     padding: 2.5rem;
   }
 
-  .salon-wrap__content__img img {
+  /* .salon-wrap__content__img img {
     width: 30.0rem;
     height: auto;
-  }
+  } */
 
   .salon-wrap__content__block__detail h4 {
     padding-bottom: 1.0rem;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
   }
 
   .salon-wrap__content__block__detail p {
     padding-bottom: 1.0rem;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 
   .salon-wrap__content__block__detail span {

@@ -20,19 +20,28 @@
 }
 
 .news-wrap__content__block {
+  width: 25%;
   padding: 2.0rem;
   background-color: #fff;
 }
 
+.news-wrap__content__block__img {
+  width: 100%;
+}
+
 .news-wrap__content__block__img img {
-  width: 32.0rem;
-  height: 24.0rem;
+  width: 100%;
+  height: auto;
+  /* width: 32.0rem;
+  height: 24.0rem; */
   border: solid 1px #888;
 }
 
 .news-wrap__content__block__txt {
-  padding: 0 3.0rem;
-  font-size: 2.0rem;
+  width: 81%;
+  margin: 0 auto;
+  /* padding: 0 3.0rem; */
+  font-size: 1.7rem;
 }
 
 .news-wrap__content__block__txt__top {
@@ -46,9 +55,9 @@
   align-items: center;
 }
 
-.news-wrap__content__block__txt__bottom p {
+/* .news-wrap__content__block__txt__bottom p {
   padding-right: 5.0rem;
-}
+} */
 
 .block__top {
   margin-bottom: 3.5rem;
@@ -57,21 +66,23 @@
 @media screen and (max-width: 1024px) {
   /* News */
   .news-wrap__content__block {
-    padding: 3.0rem;
+    width: 40%;
+    padding: 2.0rem;
+    /* padding: 3.0rem; */
   }
 
   .block__tab1 {
     margin-bottom: 3.5rem;
   }
 
-  .news-wrap__content__block__img img {
+  /* .news-wrap__content__block__img img {
     width: 30.0rem;
     height: auto;
-  }
+  } */
 
-  .news-wrap__content__block__txt {
+  /* .news-wrap__content__block__txt {
     padding: 0 4.0rem;
-  }
+  } */
 
   .news-wrap__content__block__txt__top {
     padding: 1.5rem 0;
@@ -99,14 +110,20 @@
     margin-bottom: 3.5rem;
   }
 
-  .news-wrap__content__block__img img {
-    width: 40.0rem;
-    height: auto;
+  .news-wrap__content__block {
+    width: 70%;
   }
 
+  /* .news-wrap__content__block__img img {
+    width: 40.0rem;
+    height: auto;
+  } */
+
   .news-wrap__content__block__txt {
-    padding: 0 6.0rem;
-    font-size: 2.5rem;
+    width: 68%;
+    margin: 0 auto;
+    /* padding: 0 6.0rem; */
+    font-size: 2.0rem;
   }
 }
 
@@ -116,13 +133,13 @@
     padding: 2.0rem;
   }
 
-  .news-wrap__content__block__img img {
+  /* .news-wrap__content__block__img img {
     width: 30.0rem;
     height: auto;
-  }
+  } */
 
   .news-wrap__content__block__txt {
-    padding: 0 4.0rem;
-    font-size: 2.0rem;
+    /* padding: 0 4.0rem; */
+    font-size: 1.3rem;
   }
 }
