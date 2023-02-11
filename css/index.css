@@ -17,14 +17,14 @@
 
 .home-wrap__ttl {
   /* font-size: 10.0rem; */
-  font-size: 8.0rem;
+  font-size: 6.0rem;
   color: #fff;
 }
 
 .home-wrap__ttl p {
   /* font-size: 5.0rem; */
-  font-size: 4.0rem;
-  letter-spacing: 2.0rem;
+  font-size: 3.0rem;
+  letter-spacing: 1.5rem;
 }
 
 .home-wrap__img img {
@@ -55,7 +55,7 @@
   display: inline-block;
 }
 
-.__sp {
+.__tab2 {
   display: none;
 }
 

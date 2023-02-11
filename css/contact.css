@@ -221,21 +221,35 @@
   }
 
   .contact-wrap__form {
-    width: 70%;
-    margin: 0;
+    width: 95%;
+    margin: 0 auto;
     font-size: 1.8rem;
+  }
+
+  /* .contact-wrap__form__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  } */
+
+  .contact-wrap__form__box__ttl::after {
+    /* top: 50%; */
+    left: 70%;
   }
 
   .contact-wrap__form__box__select,
   .contact-wrap__form__box__input,
   .contact-wrap__form__box__area {
+    width:80%;
     margin-left: 2.0rem;
     height: 2.8rem;
     font-size: 1.3rem;
   }
 
   .contact-wrap__form__box__select {
-    width: 105%;
+    /* width: 105%; */
+    width: 84%;
   }
 
   .contact-wrap__form__box__area {
