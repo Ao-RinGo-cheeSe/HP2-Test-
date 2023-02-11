@@ -106,8 +106,10 @@
   }
 
   .contact-wrap__form {
-    width: 90%;
-    margin: 7.0rem;
+    width: 85%;
+    margin: 0 auto;
+    /* margin: 0 3.5rem; */
+    /* margin: 7.0rem; */
   }
 
   .contact-wrap__form__box {
@@ -133,12 +135,12 @@
   .contact-wrap__form__box__select,
   .contact-wrap__form__box__input,
   .contact-wrap__form__box__area {
-    width: 100%;
+    width: 90%;
     margin-left: 3.5rem;
   }
 
   .contact-wrap__form__box__select {
-    width: 102.5%;
+    width: 92%;
   }
 
   .contact-wrap__form__box.__area {
